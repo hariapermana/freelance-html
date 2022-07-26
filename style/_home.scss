@@ -1,0 +1,307 @@
+// Header
+
+header {
+  padding: 180px 0px 165px;
+  margin-top: -70px;
+  background-color: #ffffff;
+  background-size: cover;
+
+  h1,
+  p {
+    color: #07122c;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  .btn-register {
+    background-color: #f2b224;
+    color: #ffffff;
+    width: 170px;
+    height: 45px;
+
+    &:hover {
+      background-color: #f6a161;
+      color: #ffffff;
+    }
+  }
+
+  .btn-faq {
+    background-color: #efefef;
+    color: #353535;
+    width: 170px;
+    height: 45px;
+
+    &:hover {
+      background-color: #f6a161;
+      color: #ffffff;
+    }
+  }
+  .btn-search {
+    width: 63px;
+    height: 45px;
+
+    background: #f2b224;
+    border-radius: 0px 2px 2px 0px;
+  }
+  .input-search {
+    display: flex;
+    width: 376px;
+    height: 45px;
+  }
+  .search-component {
+    width: 376px;
+    height: 45px;
+
+    background: #ececec;
+    border-radius: 2px;
+  }
+}
+
+// End Header
+
+// Section statistik
+
+.section-stats {
+  position: absolute;
+  width: 737px;
+  height: 98px;
+  left: 315px;
+  top: 550px;
+
+  background: #ffffff;
+  box-shadow: -1px -1px 1px 1px rgba(0, 0, 0, 0.25);
+  .stats-detail {
+    padding: 15px;
+    background-color: #ffffff;
+    max-height: 98px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 0%;
+  }
+  p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+}
+// End Section statistik
+
+// Section Newest Job
+.section-popular {
+  min-height: 540px;
+  background-color: #4a77ba;
+  margin-top: -130px;
+  margin-bottom: -230px;
+
+  .section-popular-heading {
+    margin-top: 150px;
+
+    h2,
+    p {
+      color: #ffffff;
+    }
+
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+.section-popular-content {
+  .section-popular-travel {
+    .card-jobs {
+      min-height: 380px;
+      background-color: #000;
+      color: #ffffff;
+      padding: 30px;
+      background-size: cover;
+      margin-bottom: 20px;
+      box-shadow: 3px 3px 20px rgb(72 72 72 / 25%);
+    }
+
+    .jobs-title {
+      font-size: 18px;
+      color: #1f325d;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .jobs-description {
+      font-size: 18px;
+      color: #6e6e6e;
+      height: 174px;
+    }
+    .jobs-brand {
+      border-top: 1px solid #000;
+      font-size: 18px;
+      color: #6e6e6e;
+    }
+    .background-jobs-img {
+      width: 120px;
+      height: 120px;
+    }
+    .travel-button {
+      .btn-travel-details {
+        background-color: #ff9e53;
+        color: #ffffff;
+
+        &:hover {
+          background-color: #fbae72;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+// End Section Newest Job
+
+// Section Newest Talent
+.section-networks {
+  background-color: #ffffff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.section-testimonial-heading {
+  padding-top: 50px;
+  min-height: 506px;
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+
+  .card-testimonial {
+    padding: 40px 20px 10px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 20px rgb(72 72 72 / 25%);
+
+    .testimonial-content {
+      max-height: 380px;
+    }
+
+    h3 {
+      width: 186px;
+      height: 31px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 31px;
+
+      color: #1f325d;
+    }
+
+    .testimonial {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      width: 213px;
+      height: 72px;
+      text-align: left;
+      color: #1f325d;
+    }
+
+    .trip-to {
+      font-weight: normal;
+      font-size: 22px;
+      color: #6e6e6e;
+    }
+
+    hr {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+}
+
+// End Section Newest Talent
+
+// Gradient Content
+.gradient-section {
+  position: absolute;
+  width: 1366px;
+  height: 601px;
+  left: 0px;
+  top: 1760px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(74, 119, 186, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+// End Gradient Content
+
+// Footer
+.section-footer {
+  a {
+    color: #071c4d;
+    text-decoration: none;
+  }
+}
+
+.section-details-header {
+  min-height: 310px;
+  background-color: #e4e6eb;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+  .breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #071c4d;
+    }
+  }
+}
+// End Footer

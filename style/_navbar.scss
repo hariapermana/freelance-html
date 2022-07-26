@@ -1,0 +1,43 @@
+.main-navbar {
+  padding-top: 15px;
+
+  @include media-breakpoint-down(md) {
+    background-color: #fff !important;
+  }
+
+  .nav-item {
+    .nav-link {
+      color: #071c4d;
+      &.active {
+        font-weight: bold;
+        color: #071c4d !important;
+      }
+      @include media-breakpoint-up(lg) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .navbar-brand {
+    img {
+      max-height: 40px;
+    }
+  }
+  .btn-login {
+    background-color: #f2b224;
+    color: #ffffff;
+    width: 150px;
+    height: 43px;
+    &:hover {
+      background-color: #1f3a79;
+      color: #ffffff;
+    }
+  }
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+  box-shadow: 3px 3px 20px rgb(72 72 72 / 25%);
+}
